@@ -1,0 +1,68 @@
+* {
+  margin: 5px;
+  width: auto;
+  height: auto;
+}
+
+body {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kepala {
+  border: 1px solid red;
+  text-align: center;
+  background-color: yellowgreen;
+}
+
+.judul {
+  font-family: Tahoma;
+}
+
+.badan {
+  border: 1px solid green;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  gap: 5px;
+  font-size: 10px;
+}
+
+.box1 {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box2 {
+  background-color: green;
+  box-shadow: 5px 5px 5px black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+
+}
+
+.box3 {
+  background: linear-gradient(to bottom right, red, blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.kaki {
+  border: 1px solid cyan;
+  height: 100;
+  text-align: center;
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
