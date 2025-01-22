@@ -1,0 +1,144 @@
+/* badan */
+body {
+  font-family: newake;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Ibu Halaman */
+.hero {
+  background-image: url(../Picture/HTML2/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 97px 20px;
+}
+
+.container {
+  align-items: center;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+  font-family: striger;
+  text-align: start;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  position: relative;
+  left: 150px;
+  bottom: 30px;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(6, 40, 134);
+  color: #4facfe;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  position: relative;
+  left: 175px;
+}
+
+.hero .btn:hover {
+  background: rgb(63, 95, 184);
+}
+
+
+
+.rgb {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  animation: rainbow 2s ease-in-out infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    color: rgb(6, 40, 134)
+  }
+  40% {
+    color: rgb(6, 40, 134)
+  }
+  80%{
+    color: white
+  }
+  100% {
+    color: rgb(6, 40, 134)
+  }
+}
+
+
+/* Navbarnya */
+.navbar {
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #4facfe;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Buat Galery */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.gallery img {
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
