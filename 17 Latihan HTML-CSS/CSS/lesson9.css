@@ -1,0 +1,248 @@
+.box1 {
+  display: flex;
+}
+
+.box1 .square {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border: none;
+  margin-left: 10px;
+}
+
+.box2 {
+  display: flex;
+}
+
+.box2 .circle {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border: none;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+
+
+.box3 {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.box3 .main {
+  margin-left: 10px;
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+}
+
+.box4 {
+  font-family: arial;
+  border: 1px solid;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.842);
+  width: 380px;
+}
+
+.box4 h2 {
+  color: white;
+}
+
+.box4 p {
+  color: grey;
+}
+
+.box5 {
+  display: flex;
+}
+
+.box5 .main {
+  width: 450px;
+  vertical-align: middle;
+  font-family: arial;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.box5 .main img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.box5 .main span {
+  font-size: 20px;
+  color: grey;
+}
+
+.box5 .main button {
+  margin-left: auto;
+  height: 30px;
+  border-radius: 50px;
+  width: 60px;
+  color: white;
+  background-color: rgb(0, 157, 255);
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.box6 {
+  display: flex;
+  
+}
+
+.box6 .main {
+  width: 200px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.box6 .main .pict img{
+  width: 200px;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 10px;
+}
+
+.box6 .desc {
+  border: none;
+  width: auto;
+  font-family: arial;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: -10px;
+}
+
+.box6 .desc h4 {
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.box6 .desc p {
+  padding-top: 5px;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.box6 .desc button {
+  margin-left: 10px;
+  height: 30px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(9, 129, 227);
+  color: white;
+}
+
+.box7 {
+  display: inline-block;
+  width: 100%;
+}
+
+.box7 .main {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.box7 .pict img{
+  width: 200px;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 10px;
+}
+
+.box7 .desc {
+  border: none;
+  width: 200px;
+  font-family: arial;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: -10px;
+}
+
+.box7 .desc h4 {
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.box7 .desc p {
+  padding-top: 5px;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.box7 .desc button {
+  margin-left: 10px;
+  height: 30px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(9, 129, 227);
+  color: white;
+}
+
+.box8 {
+  display: flex;
+  width: 450px;
+}
+
+.box8 .main {
+  margin: 0;
+  width: 100%;
+  height: 100%px;
+  text-align: center;
+}
+
+.box8 .main img{
+  width: 100px;
+  height: 50px;
+}
+
+.box8 .main input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.box8 .main .suges {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-family: arial;
+  margin-top: 30px;
+}
+
+.box8 .main .suges .satu, 
+.box8 .main .suges .dua {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  background-color: rgba(128, 128, 128, 0.175);
+  vertical-align: top;
+  margin: 5px;
+  text-align: center;
+  line-height: 40px;
+  box-sizing: border-box;
+}
+
+.box8 .main .suges h3 {
+  margin: 0;
+  font-size: 14px;
+  line-height: inherit;
+}

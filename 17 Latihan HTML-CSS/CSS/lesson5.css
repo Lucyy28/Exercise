@@ -1,0 +1,149 @@
+.tahoma {
+  font-family: Tahoma;
+}
+
+.Arial {
+  font-family: Arial;
+}
+
+.Arial2 {
+  font-family: Arial;
+  color: red;
+}
+
+.box {
+  font-family: Verdana;
+}
+
+.box h2 {
+  margin-bottom: 10px;
+}
+
+.box .pe {
+  margin-top: -10px;
+  color: grey;
+}
+
+.box button {
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(38, 143, 67);
+  color: white;
+}
+
+.box2 {
+  font-family: Arial;
+  text-align: center;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.box2 .link {
+  text-decoration: none;
+}
+
+.box3 {
+  display: flex;
+  
+}
+
+.box3 .main {
+  text-align: center;
+  width: 600px;
+  height: 150px;
+  font-family: Arial;
+}
+
+.box3 .main h6 {
+  color: red;
+  margin-top: 5px;
+}
+
+.box3 .main h4 {
+  margin-top: -20px;
+}
+
+.box3 .main h2 {
+  margin-top: -20px;
+}
+
+.box3 .main p {
+  color: grey;
+  margin-top: -10px;
+}
+
+.box3 .main button {
+  height: 30px;
+  border-radius: 50px;
+  width: 50px;
+  border: none;
+  background-color: rgb(10, 85, 172);
+  color: white;
+}
+
+.box4 {
+  font-family: arial;
+}
+
+.box4 .main {
+  position: relative;
+  left: 20px;
+  display: flex;
+}
+
+.box4 .main h2:first-child {
+  font-weight: normal;
+}
+
+.box4 .main span {
+  color: grey;
+  margin-top: 30px;
+  position: relative;
+  left: 10px;
+}
+
+.box4 .main2 span {
+  color: green;
+  position: relative;
+  left: 10px;
+  top: -10px;
+}
+
+.box4 .main3 span {
+  position: relative;
+  left: 10px;
+  top: -5px;
+}
+
+.box4 .main3 span:first-child {
+  color: grey;
+}
+
+.box4 .main3 span:last-child {
+  color: red
+}
+
+.box5 {
+  display: flex;
+}
+
+.box5 .main {
+  margin-left: 10px;
+  font-family: arial;
+}
+
+.box5 .main p:nth-child(1) {
+font-weight: bold;
+}
+
+.box5 .main span {
+  font-weight: normal;
+  color: grey;
+}
+
+.box5 .main a {
+  text-decoration: none;
+  color: rgb(113, 178, 204);
+}

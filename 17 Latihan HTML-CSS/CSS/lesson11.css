@@ -1,0 +1,75 @@
+.box1 .main {
+  display: grid;
+  grid-template-columns: 200px 75px;
+  grid-template-rows: 20px;
+}
+
+.box1 .kotak {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.box1 .kotak1 {
+  background-color: rgba(2, 196, 255, 0.384);
+}
+
+.box1 .kotak2 {
+  background-color: rgba(165, 42, 42, 0.418);
+}
+
+.box1 .main p {
+  margin: 0;
+  font-size: 15px;
+}
+
+
+.box2 .main {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  grid-template-rows: 20px;
+}
+
+.box2 .kotak {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+
+.box2 .col1 {
+  background-color: rgba(2, 196, 255, 0.384);
+}
+
+.box2 .col2 {
+  background-color: rgba(165, 42, 42, 0.418);
+}
+
+.box2 .col3 {
+  background-color: rgba(34, 193, 195, 0.418);
+}
+
+.box2 .main p {
+  margin: 0;
+  font-size: 15px;
+}
+
+
+.box3 {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  gap: 10px;
+  width: 100%;
+}
+
+.box3 .kotak1 {
+  background-color: lightblue;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,152 @@
+hr {
+  margin-top: 20px;
+}
+
+.box1 {
+  display: flex;
+}
+
+.box1 .main {
+  position: relative;
+  top: 20px;
+  margin-left: 10px;
+}
+
+.box1 .main .Name {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.box1 .main .Email {
+  display: block;
+}
+
+/* 8b.  */
+
+.box2 {
+  display: flex;
+}
+
+.box2 .main {
+  margin-left: 10px;
+  display: inline-block;
+  border: 1px solid black;
+  width: 400px; 
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+.box2 .text {
+  display: inline-block; 
+  width: 200px; 
+  vertical-align: middle; 
+  margin: 0;
+}
+
+.box2 .btnn {
+  display: inline-block; 
+  vertical-align: middle; 
+  width: 30%; 
+}
+
+.box2 .btn {
+  display: inline-block;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.box3 {
+  display: flex;
+  width: 450px;
+}
+
+.box3 .main {
+  margin: 0;
+  width: 100%;
+  height: 100%px;
+  text-align: center;
+}
+
+.box3 .main img{
+  width: 100px;
+  height: 50px;
+}
+
+.box3 .main input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.box4 {
+  margin: 0;
+}
+
+.box4 .main {
+ display: block; 
+ width: 300px;
+ margin-bottom: 20px;
+}
+
+.box4 .main .name {
+  width: 49%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.box4 .main input[placeholder="Email"] {
+  width: 100%;
+}
+
+.box4 .main button {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(21, 127, 208);
+  color: white;
+  font-weight: bold;
+}
+
+.box4 .main2 {
+  font-family: arial;
+  width: 450px;
+}
+
+.box4 .main2 .name {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.123);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+
+.box4 .main2 .btn button {
+  width: 30%;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 3px;
+  border: none;
+}
+
+.box4 .main2 .btn button:nth-child(1) {
+  background: black;
+  color: white;
+}
+
+.box4 .main2 .btn button:nth-child(2) {
+  margin-left: 15px;
+}
+

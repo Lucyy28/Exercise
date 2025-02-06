@@ -1,0 +1,114 @@
+.uber button {
+  height: 40px;
+  width: 120px;
+  background: #000;
+  color: white;
+  border-radius: 2px;
+}
+
+.amazon button {
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: rgb(255, 216, 20);
+  border: none;
+  font-weight: bold;
+}
+
+.github button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: none
+}
+
+.bt {
+  display: flex;
+  gap: 20px;
+}
+
+.bt .kesatu button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 3px;
+  border: none;
+}
+
+.bt .kedua button {
+  border: 1px solid rgb(108,117,125);
+  background-color: white;
+  color: rgb(108,117,125);
+  border-radius: 3px;
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+}
+
+.ld {
+  display: flex;
+  gap: 20px;
+}
+
+.ld .kesatu button {
+  background-color: rgb(10, 102, 194);
+  height: 30px;
+  width: 200px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+}
+
+.ld .kedua button {
+  border:1px solid rgb(10, 102, 194);
+  height: 30px;
+  width: 80px;
+  border-radius: 30px;
+  color: rgb(10, 102, 194);
+  font-weight: bold;
+}
+.challange {
+  border: 1px solid black;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.challange .main {
+  position: relative;
+  bottom: -50px;
+  left: 20px;
+}
+
+.challange .main a{
+  color: rgb(0, 113, 133);
+}
+
+.challange .main p:nth-of-type(1) {
+  color: rgb(0, 118, 0);
+}
+
+.challange .main .box {
+  display: flex;
+  gap: 20px;
+}
+
+.challange .main .box .kesatu button {
+  height: 30px;
+  width: 120px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(255, 216, 20);
+}
+
+.challange .main .box .kedua button {
+  height: 30px;
+  width: 120px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(255,164,28);
+}

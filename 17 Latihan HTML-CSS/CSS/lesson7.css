@@ -1,0 +1,144 @@
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+.image {
+  gap: 20px;
+  display: flex;
+}
+
+.kesatu img {
+  border-radius: 20px;
+  width: 250px;
+  height: 150px;
+  border: 1px solid;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.kedua img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid red;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ketiga img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid blue;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box1 {
+  display: flex;
+  
+}
+
+.main  {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.main input {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(202, 200, 200);
+  padding-left: 10px;
+}
+
+.box2 {
+  display: flex;
+  
+}
+
+.box2 .main  {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.box2 .main input {
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding-left: 10px;
+}
+
+.box3 {
+  display: flex;
+  width: 450px;
+}
+
+.box3 .main {
+  position: relative;
+  top: -20px;
+  font-family: arial;
+
+}
+
+.box3 .main h5 {
+  color: grey;
+}
+
+.box3 .main p {
+  color: rgb(87, 83, 83);
+}
+
+.box3 .main input {
+  width: 100%;
+  border: 2px solid black;
+  margin-top: -15px;
+}
+
+.box3 .main button {
+  width: 100%;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  background-color: rgb(88, 113, 214);
+  color: white;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.box4 {
+  display: flex;
+}
+
+.box4 .main {
+  width: 450px;
+  vertical-align: middle;
+  font-family: arial;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.box4 .main img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.box4 .main span {
+  font-size: 20px;
+  color: grey;
+}
+
+.box4 .main button {
+  margin-left: auto;
+  height: 30px;
+  border-radius: 50px;
+  width: 60px;
+  color: white;
+  background-color: rgb(0, 157, 255);
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
