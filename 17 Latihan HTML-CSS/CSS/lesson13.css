@@ -1,0 +1,106 @@
+.box1 .main {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 20px;
+}
+
+.box1 .kotak {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.box1 .kotak2 {
+  background-color: rgba(2, 196, 255, 0.384);
+}
+
+.box1 .kotak1 {
+  background-color: rgba(165, 42, 42, 0.418);
+}
+
+.box1 .main p {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+}
+
+/* batas */
+
+.box2 .main {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 20px;
+}
+
+.box2 .kotak {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.box2 .kotak2 {
+  background-color: rgba(2, 196, 255, 0.384);
+}
+
+.box2 .kotak1 {
+  background-color: rgba(165, 42, 42, 0.418);
+}
+
+.box2 .main p {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+}
+
+/* CSS GW BANG */
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.column1 {
+  width: 100px;
+}
+
+.column2 {
+  width: 200px;
+}
+
+
+.lightblue {
+  background-color: rgba(2, 196, 255, 0.384);
+}
+
+.lightpink {
+  background-color: rgba(165, 42, 42, 0.418);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row-item {
+  background-color: black;
+  color: white;
+}
+
+/* 13b nih */
+
+.kotak-utama .container {
+  display: flex;
+  align-items: flex-end; /* Biar teks sejajar secara vertikal dengan gambar */
+  gap: 10px;           /* Jarak antara foto dan teks */
+}
+
+.foto img {
+  width: 40px;         /* Ukuran kecil seperti profil */
+  height: 40px;
+  border-radius: 50%;  /* Biar bulat */
+  object-fit: cover;
+}

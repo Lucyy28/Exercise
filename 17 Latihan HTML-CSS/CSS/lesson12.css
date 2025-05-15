@@ -1,0 +1,196 @@
+.box1 .main {
+  display: grid;
+  grid-template-columns: 200px 75px;
+  grid-template-rows: 20px;
+}
+
+.box1 .kotak {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.box1 .kotak1 {
+  background-color: rgba(2, 196, 255, 0.384);
+}
+
+.box1 .kotak2 {
+  background-color: rgba(165, 42, 42, 0.418);
+}
+
+.box1 .main p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.box2 .main {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  grid-template-rows: 20px;
+}
+
+.box2 .kotak {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+
+.box2 .col1 {
+  background-color: rgba(2, 196, 255, 0.384);
+}
+
+.box2 .col2 {
+  background-color: rgba(165, 42, 42, 0.418);
+}
+
+.box2 .col3 {
+  background-color: rgba(34, 193, 195, 0.418);
+}
+
+.box2 .main p {
+  margin: 0;
+  font-size: 15px;
+}
+
+
+.box3 .main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box3 .main div{
+  width: auto;
+  background-color: rgba(165, 42, 42, 0.418);
+}
+
+.box4 .main {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 20px;
+}
+
+.box4 .main :nth-child(1) {
+  background-color: rgba(165, 42, 42, 0.418);
+}
+
+.box4 .main :nth-child(3) {
+  background-color: rgba(165, 42, 42, 0.418);
+}
+
+.box5 .main {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.box5 .belasan {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 20px;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  gap: 10px;
+  margin-bottom: 13px;
+}
+
+.box5 .numb {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  padding: 2px 8px;
+  background-color: rgb(0, 110, 255);
+  color: white;
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+
+.teks p, .numb p {
+  margin: 0;
+}
+
+.box5 .satuan {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 20px;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  gap: 10px;
+}
+
+.box5 .numb {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  padding: 2px 8px;
+  background-color: rgb(0, 110, 255);
+  color: white;
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+
+.teks p, .numb p {
+  margin: 0;
+}
+
+.box6 .main {
+  font-family: Arial;
+}
+
+.box6 .navbar {
+  display: flex;
+  align-items: center;
+  background-color: #6a0dad;
+  padding: 10px;
+}
+
+.box6 .navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.box6 .navbar a:hover {
+  background-color: #5a0cad;
+}
+
+.box6 .navbar input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin: 0 80px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+
+.box6 .navbar .download-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1em;
+}
+
+.box6 .navbar .download-btn:hover {
+  background-color: white;
+  color: #6a0dad;
+}
+
+.box6 .main .navbar a:nth-child(1) {
+  font-weight: bold;
+}

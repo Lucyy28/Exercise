@@ -114,6 +114,6 @@
 }
 
 .ld .kedua button:hover {
-  width: 120px; /* Lebar bertambah */
+  width: 120px;
   background-color: rgba(8, 82, 155, 0.226); 
 }

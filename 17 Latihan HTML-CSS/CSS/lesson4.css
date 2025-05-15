@@ -1,0 +1,63 @@
+.kesatu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kesatu button {
+  width: 60px;
+  height: 50px;
+}
+
+.kedua button {
+  background-color: #56AA40;
+  width: 50px;
+  height: 20px;
+  border: none;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out, background-color 0.4s ease;
+}
+
+.kedua button:hover,
+.kedua button:active {
+  background-color: #56AA40;
+  width: 80px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.ketiga button {
+  background-color: #56AA40;
+  width: 60px;
+  height: 20px;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+
+.ketiga button:hover,
+.ketiga button:active {
+  background-color: #56AA40;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.keempat button {
+  background-color: #56AA40;
+
+  border: none;
+  transition: width 0.5s ease-in-out, background-color 0.4s ease, padding 0.5s, margin 0.5s;
+  padding: 15px 20px;
+  margin: 10px 20px;
+}
+
+.keempat button:hover {
+  background-color: #56AA40;
+  cursor: pointer;
+  padding: 15px 30px;
+  margin: 10px 10px;
+}
