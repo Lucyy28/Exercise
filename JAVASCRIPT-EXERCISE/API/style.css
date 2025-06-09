@@ -1,0 +1,16 @@
+body{
+  font-family: sans-serif;
+}
+.cari{
+  border: 1px solid rgb(243, 241, 241);
+  height: 30px;
+  box-shadow: 0 0 5px rgb(152, 150, 150);
+}
+.ceri{
+  background-color: blue;
+  border: none;
+  height: 30px;
+  width:60px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px;
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "Nama"    : "Kamel",
+    "Jk"      : "Laki-laki",
+    "Alamat"  : "Cianjur",
+    "Kelas"   : "X PPLG 1"
+  },
+
+  {
+    "Nama"  : "Didah",
+    "Jk"         : "Perempuan",
+    "Alamat" : "Cugenang",
+    "Kelas"   : "X PPLG 1"
+  },
+
+
+  {
+    "nama"  : "kiran",
+    "jk"         : "perempuan",
+    "alamat" : "salkop",
+    "Kelas"   : "X PPLG 1"
+  },
+
+
+  {
+    "nama"  : "mita",
+    "jk"         : "perempuan",
+    "alamat" : "beelka",
+    "Kelas"   : "X PPLG 1"
+  },
+
+
+  {
+    "nama"  : "Fadil",
+    "jk"         : "laki-laki",
+    "alamat" : "cibeber",
+    "Kelas"   : "X PPLG 1"
+  },
+  {
+    "nama"  : "Aden",
+    "jk"         : "laki-laki",
+    "alamat" : "cibeber",
+    "Kelas"   : "X PPLG 1"
+  },
+  {
+    "nama"  : "Barca",
+    "jk"         : "laki-laki",
+    "alamat" : "cibeber",
+    "Kelas"   : "X PPLG 1"
+  },
+  {
+    "nama"  : "Madrid",
+    "jk"         : "hama",
+    "alamat" : "cibeber",
+    "Kelas"   : "X PPLG 1"
+  }
+]
