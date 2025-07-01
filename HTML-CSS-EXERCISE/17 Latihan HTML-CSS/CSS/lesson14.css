@@ -1,0 +1,133 @@
+/* Global */
+body {
+  height: 3000px;
+  margin: 0;
+  font-family: Arial;
+}
+
+.section {
+  display: none;
+  padding: 20px;
+}
+
+/* Tampilkan bagian yang ingin diuji */
+.section-1 {
+  display: block;
+}
+
+/* SECTION 1: bottom-right */
+.bottom-right {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* SECTION 2 & 4: right-sidebar */
+.right-sidebar {
+  background-color: green;
+  color: white;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* SECTION 3: cover */
+.cover {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+/* SECTION 4: modal overlay */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.modal {
+  background-color: white;
+  width: 300px;
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 3;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.modal-content {
+  margin-bottom: 12px;
+}
+
+/* SECTION 5: header layout */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px 50px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.add-friend-button {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-right: 5px;
+}
+
+.message-button {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 6px;
+}

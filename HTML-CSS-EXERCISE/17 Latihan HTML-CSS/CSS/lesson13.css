@@ -1,3 +1,10 @@
+* {
+  font-family: Arial, sans-serif;  /* atau font biasa lainnya */
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+
 .box1 .main {
   display: grid;
   grid-template-columns: 100px 200px;
@@ -25,82 +32,172 @@
   color: white;
 }
 
-/* batas */
+/* 13b. */
 
-.box2 .main {
-  display: grid;
-  grid-template-columns: 100px 200px;
-  grid-template-rows: 20px;
-}
-
-.box2 .kotak {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 70px;
-}
-
-.box2 .kotak2 {
-  background-color: rgba(2, 196, 255, 0.384);
-}
-
-.box2 .kotak1 {
-  background-color: rgba(165, 42, 42, 0.418);
-}
-
-.box2 .main p {
-  font-size: 15px;
-  background-color: black;
-  color: white;
-}
-
-/* CSS GW BANG */
-
-.flexbox {
+.box2 .flexbox {
   display: flex;
   flex-direction: row;
   height: 50px;
 }
 
-.column1 {
+.box2 .column1 {
   width: 100px;
 }
 
-.column2 {
+.box2 .column2 {
   width: 200px;
 }
 
 
-.lightblue {
+.box2 .lightblue {
   background-color: rgba(2, 196, 255, 0.384);
 }
 
-.lightpink {
+.box2 .lightpink {
   background-color: rgba(165, 42, 42, 0.418);
 }
 
-.row {
+.box2 .row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.row-item {
+.box2 .row-item {
   background-color: black;
   color: white;
 }
 
-/* 13b nih */
+/* 13c */
 
-.kotak-utama .container {
-  display: flex;
-  align-items: flex-end; /* Biar teks sejajar secara vertikal dengan gambar */
-  gap: 10px;           /* Jarak antara foto dan teks */
-}
+  .box3 .kotak {
+    width: 360px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgb(0 0 0 / 0.3);
+    padding: 12px 16px;
+  }
 
-.foto img {
-  width: 40px;         /* Ukuran kecil seperti profil */
-  height: 40px;
-  border-radius: 50%;  /* Biar bulat */
-  object-fit: cover;
-}
+  .box3 .item {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 12px 12px 12px 8px;
+    box-shadow: 0 0 3px rgb(0 0 0 / 0.05);
+  }
+  .box3 .avatar {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 12px;
+  }
+  .box3 .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .box3 .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .box3 .item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box3 .sender {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+  }
+  .box3 .time {
+    font-size: 12px;
+    color: #6b6b6b;
+    flex-shrink: 0;
+    margin-left: 8px;
+  }
+  .box3 .subject {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+  }
+  .box3 .preview {
+    font-weight: 400;
+    font-size: 13px;
+    color: #6b6b6b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  /* 13e */
+
+    .box4 {
+    width: 360px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgb(0 0 0 / 0.3);
+    padding: 12px 16px;
+  }
+
+  .box4 .item {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 12px 12px 12px 8px;
+    box-shadow: 0 0 3px rgb(0 0 0 / 0.05);
+  }
+  .box4 .avatar {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 12px;
+  }
+  .box4 .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .box4 .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .box4 .item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box4 .sender {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+  }
+  .box4 .time {
+    font-size: 12px;
+    color: #6b6b6b;
+    flex-shrink: 0;
+    margin-left: 8px;
+  }
+  .box4 .subject {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+  }
+  .box4 .preview {
+    font-weight: 400;
+    font-size: 13px;
+    color: #6b6b6b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
